@@ -171,6 +171,7 @@
 /* cards section */
 .cards-section-box {
     display: grid;
+    justify-content: center;
     gap: 2.2rem;
 }
 
