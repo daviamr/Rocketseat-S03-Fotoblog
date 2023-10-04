@@ -47,6 +47,8 @@
     background-position: center;
     background-repeat: no-repeat;
 
+    background-color: var(--bg-input);
+
     cursor: pointer;
 }
 

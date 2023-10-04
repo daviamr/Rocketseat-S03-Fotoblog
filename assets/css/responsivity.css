@@ -1,4 +1,8 @@
 @media (min-width: 320px) {
+    .desktop {
+        display: none;
+    }
+
     .desktop-flex {
         display: none;
     }
@@ -31,6 +35,10 @@
         padding: 1.8rem 2.4rem;
     }
 
+    .desktop {
+        display: block;
+    }
+
     .desktop-nav {
         display: flex;
         gap: 7.4rem;
@@ -42,12 +50,12 @@
     }
 
     .desktop-flex {
-        width: 100%;
-
         display: flex;
         align-items: center;
         justify-content: right;
         gap: 7.4rem;
+
+        width: 100%;
     }
 
     .h-search {
