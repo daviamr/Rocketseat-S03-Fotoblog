@@ -1,0 +1,46 @@
+@import './reset.css';
+@import './style.css';
+@import './animation.css';
+@import './responsivity.css';
+/* default import */
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --white: #FFFFFF;
+    --black: #000000;
+    --bg-input: #EEEEEE;
+    --placeholder: #3D3D3D;
+    --background: #F5F5F5;
+    --bg-tag: #F5F5F5;
+    --bg-hover-tag: #e7e7e7;
+    --bg-footer: #323238;
+    --scrollbar: #cacaca;
+}
+
+body {
+    font-family: var(--mulish);
+    font-size: 1.6rem;
+    background: var(--background);
+
+    --mulish: 'Mulish', sans-serif;
+}
+
+/*scrollbar custom */
+
+::-webkit-scrollbar {
+    width: .6rem;
+    background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar);
+    border-radius: 1rem;
+}
+
+.hide {
+    display: none;
+}
